@@ -1,62 +1,56 @@
 # realtime-fraud-detection-platform
-Realtime Fraud Detection Platform  A high-performanDesigned to identify suspicious transactions in real-time — ensuring secure digital payments and preventing financial loss.  This platform leverages streaming data pipelines, machine learning models, and automated risk analytics to detect anomalies the moment they happen. 🚨⚡
+Realtime Fraud Detection Platform  A high-performanDesigned to identify suspicious transactions in real-time — ensuring secure digital payments and preventing financial loss.  This platform leverages streaming data pipelines, machine learning models, and automated risk analytics to detect anomalies the moment they happen.
 
-# 🔍 Real-Time Fraud Detection & Risk Intelligence Platform
+# # Real-Time Fraud Detection System
 
-🚀 **Live Demo:** https://realtime-fraud-detection-platform.streamlit.app/  
-📂 **Tech Stack:** Python · FastAPI · scikit-learn · Streamlit · SQLite  
-🎯 **Domain:** AI / Machine Learning / FinTech / Real-Time Analytics  
-
-> A production-style, end-to-end **real-time fraud detection system** that scores live transactions using machine learning and visualizes fraud risk through an interactive analytics dashboard.
+This project is a Python-based **Real-Time Fraud Detection Platform** that uses machine learning to identify fraudulent transactions. It provides a REST API for real-time predictions and a Streamlit dashboard for visualizing fraud metrics.
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
-This project implements a **Real-Time Fraud Detection & Risk Intelligence Platform** capable of:
-
-- Scoring transactions in real time using a trained ML model
-- Persisting predictions for audit & analytics
-- Visualizing fraud trends using a live Streamlit dashboard
-- Demonstrating a full **ML + API + Analytics + Deployment** workflow
-
-It is designed as a **portfolio-grade AI Engineering project** aligned with real-world FinTech and product-based company use cases.
+The system analyzes transaction data and predicts whether a transaction is fraudulent using a trained machine learning model. It supports real-time transaction scoring and provides an analytics dashboard for monitoring fraud trends.
 
 ---
 
-## 🏦 Business Problem & Solution
+## Technology Stack
 
-### ❌ Business Problem
-Financial institutions and e-commerce platforms must:
-- Detect fraud instantly
-- Minimize false positives
-- Handle high transaction volumes
-- Maintain audit trails for compliance
-
-### ✅ Solution
-This platform:
-- Uses ML to assign fraud risk in real time
-- Logs every prediction
-- Provides operational dashboards
-- Is cloud deployable & scalable
+- Programming Language: Python  
+- Machine Learning: Scikit-learn  
+- Backend API: FastAPI  
+- Dashboard: Streamlit  
+- Database: SQLite (Local) / PostgreSQL (Production Ready)  
+- Data Processing: Pandas, NumPy  
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- ✅ Real-time fraud probability scoring
-- ✅ REST API for ML inference
-- ✅ Live transaction simulator
-- ✅ Persistent transaction logging
-- ✅ Interactive analytics dashboard
-- ✅ High-risk transaction drill-down
-- ✅ Cloud deployment (Streamlit)
-- ✅ Modular & scalable design
+- Real-time fraud prediction using machine learning  
+- REST API for transaction scoring  
+- Live fraud analytics dashboard  
+- Persistent storage of transaction logs  
+- Secure input validation using Pydantic  
+- Scalable design for production use  
 
 ---
 
-## 🏗️ System Architecture
+## Use Cases
 
-### Logical Architecture
+Fraud detection in financial transactions
 
+Risk analysis for banking and e-commerce applications
 
+Real-time monitoring of suspicious activity
+
+Future Enhancements
+
+Kafka-based real-time streaming
+
+PostgreSQL integration
+
+Model performance monitoring
+
+User authentication and role-based access
+
+Cloud deployment with Docker and Kubernetes
